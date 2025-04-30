@@ -40,7 +40,8 @@ HeyGem for RTX50 series
 **AudoDL 可以参考** https://github.com/Holasyb918/HeyGem-Linux-Python-Hack/issues/43  
 请确保你的 Linux 系统上已经安装了 **Python 3.9**。然后，使用 pip 安装项目依赖项   
 **具体的 onnxruntime-gpu / torch 等需要结合你的机器上的 cuda 版本去尝试一些组合，否则仍旧可能遇到问题。**  
-**请尽量不要询问任何关于 pip 的问题，感谢合作**
+**请尽量不要询问任何关于 pip 的问题，感谢合作**  
+**新增 Issue 将于五一节后回答**
 
 ```bash
 # 直接安装整个 requirements.txt 不一定成功，更建议跑代码观察报错信息，然后根据报错信息结合 requirements 去尝试安装，祝你顺利。
