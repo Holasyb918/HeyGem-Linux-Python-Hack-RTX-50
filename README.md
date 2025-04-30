@@ -4,9 +4,9 @@ HeyGem for RTX50 series
 
 [![License](https://img.shields.io/badge/License-View%20License-blue.svg)](https://github.com/GuijiAI/HeyGem.ai/blob/main/LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
-![Linux](https://img.shields.io/badge/OS-Linux-brightgreen.svg)
+![Linux](https://img.shields.io/badge/OS-Linux-brightgreen.svg)  
 
-**[中文](#chinese-version)** | **[English](README_en.md)**  
+**[中文](#chinese-version)**
 
 ---
 如果你需要较为完整的 HeyGem，即从 TTS 到数字人，那么你可以参考 [这里](README_tts_f2f.MD)
