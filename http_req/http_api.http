@@ -1,0 +1,18 @@
+### 查询任务
+#GET http://10.2.3.51:10066/easy/query?code=146
+GET http://10.2.3.51:8383/easy/query?code=147
+
+
+### 提交任务
+#POST http://10.2.3.51:10066/easy/submit
+POST http://10.2.3.51:8383/easy/submit
+Content-Type: application/json
+
+{
+    "audio_url": "https://digital-public.obs.cn-east-3.myhuaweicloud.com/dh_news/wave/20240227165902_bd_tts_request_1709024766569.wav",
+    "video_url": "https://digital-public.obs.cn-east-3.myhuaweicloud.com/vpp/1batchSynth/2/cut_1080.mp4",
+	"code": "147"
+}
+
+###
+

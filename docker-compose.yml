@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  facesdk:
+    image: base.image.docker:5000/python/face2face_train:0.0.7_sdk_slim
+    container_name: facesdk
+    privileged: true
+    volumes:
+      - d:\face2face:/code/data
+      - d:\face2face\sdk/config.ini:/code/config/config.ini
+      - d:\face2face\sdk/license.txt:/code/license.txt
+    environment:
+      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    shm_size: '8g'
+    ports:
+      - "8383:8383"
+    command: python /code/app_local.py

@@ -1,0 +1,1 @@
+Confirm that your machine has an NVIDIA graphics card and drivers are correctly installed.
